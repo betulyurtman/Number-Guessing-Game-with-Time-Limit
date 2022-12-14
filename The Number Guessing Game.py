@@ -34,7 +34,7 @@ while count < guess_chance:
     elif guess > correct_number:
         print("\n**Guess lower.")
 
-
+    #Checking the time and guessing chance limits
     if time.time() - start_time > time_limit or count == guess_chance:
         #If the time played is greater than the time limit, the game will stop.
         if time.time() - start_time > time_limit:
