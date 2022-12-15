@@ -1,5 +1,6 @@
 #Number guessing game
 
+#Importing the necessary libraries.
 import random 
 import time 
 
